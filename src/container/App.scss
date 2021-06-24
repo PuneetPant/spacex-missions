@@ -1,0 +1,66 @@
+// import '.../fonts/Open_Sans/OpenSans-bold.ttf';
+
+$body_color: #f2f2f2;
+
+@font-face {
+    font-family: "OpenSans";
+    src: local("OpenSans"), url("/fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto"), url("/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.page-wrapper {
+    background-color: $body_color;
+    padding: 5px;
+    font-family: OpenSans;
+
+    .heading {
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+    .page-content {
+        display: block;
+        min-height:100vh;
+    }
+}
+@media (min-width: 700px) and (max-width: 1040px) {
+    .filters-wrapper {
+        min-width: 200px;
+    }
+    .missions-wrapper {
+
+        .mission-card {
+            width : calc(50% - 45px);
+            min-height: 460px;
+        }
+    }
+}
+
+@media all and (max-width: 700px) {
+    .filters-wrapper {
+        display: block;
+        min-width: 200px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .missions-wrapper {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 100%;
+        .mission-card {
+            display: block;
+            min-width: 170px;
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+    }
+}

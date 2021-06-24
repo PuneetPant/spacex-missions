@@ -1,0 +1,53 @@
+$white_color: #ffffff;
+$active_button: #7cba01;
+@font-face {
+    font-family: "OpenSansRegular";
+    src: local("OpenSans"), url("/fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype");
+}
+
+.filters-wrapper {
+    display: inline-block;
+    // width: 15%;
+    max-width: 200px;
+    .filter-section {
+        background-color: $white_color;
+        padding-bottom: 10px;
+        padding: 5px;
+        border-radius: 4px;
+        .filter-name {
+            text-align: center;
+            padding: 5px 0px;
+            font-family: OpenSansRegular !important;
+            .filter-section-heading {
+                font-size: 10px;
+                font-weight: 100;
+                margin-bottom: 8px;
+                span {
+                    border-bottom: 1px solid black;
+                    padding: 0px 10px;
+                }
+            }
+            .filter-space {
+                text-align: left;
+                .button-outer {
+                    width: 50%;
+                    display: inline-block;
+                    text-align: center;
+                    color: #c5e09b;
+                    margin-bottom: 8px;
+                    .active {
+                        background-color: $active_button !important;
+                    }
+                    .button-style {
+                        background-color: #c5e09b;
+                        border: none;
+                        border-radius: 4px;
+                        font-size: 10px;
+                        padding: 5px 15px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

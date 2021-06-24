@@ -1,0 +1,48 @@
+$white_color: #ffffff;
+$body_color: #f2f2f2;
+$value-color: #4a549d;
+$widthValue : calc(100% - 214px);
+$cardWidth : calc( (100% - 205px) / 4);
+.missions-wrapper {
+    display: inline-block;
+    width:$widthValue;
+    vertical-align: top;
+    .loading{
+        padding-left:15px;
+    }
+    .mission-card {
+        display: inline-block;
+        padding: 15px;
+        width: calc(25% - 45px);
+        background-color: $white_color;
+        border-radius: 6px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        vertical-align: top;
+        max-height: 420px;
+        .mission-img-section {
+            background-color: $body_color;
+            img {
+                object-fit: cover;
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .mission-info {
+            text-align: left;
+            font-size: 14px;
+            .mission-spacing {
+                margin: 10px 0px;
+                .mission-val {
+                    color: $value-color;
+                    font-size: 12px;
+                }
+            }
+            .mission-name {
+                color: $value-color;
+                margin-top: 8px;
+            }
+        }
+    }
+}
