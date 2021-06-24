@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/spacex-missions/static/css/main.c15771e9.chunk.css",
+    "main.js": "/spacex-missions/static/js/main.1fd799ff.chunk.js",
+    "main.js.map": "/spacex-missions/static/js/main.1fd799ff.chunk.js.map",
+    "runtime-main.js": "/spacex-missions/static/js/runtime-main.d894a57e.js",
+    "runtime-main.js.map": "/spacex-missions/static/js/runtime-main.d894a57e.js.map",
+    "static/js/2.6eb4933e.chunk.js": "/spacex-missions/static/js/2.6eb4933e.chunk.js",
+    "static/js/2.6eb4933e.chunk.js.map": "/spacex-missions/static/js/2.6eb4933e.chunk.js.map",
+    "index.html": "/spacex-missions/index.html",
+    "static/css/main.c15771e9.chunk.css.map": "/spacex-missions/static/css/main.c15771e9.chunk.css.map",
+    "static/js/2.6eb4933e.chunk.js.LICENSE.txt": "/spacex-missions/static/js/2.6eb4933e.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/spacex-missions/static/media/Roboto-Regular.a8d6ac03.ttf",
+    "static/media/Footer.scss": "/spacex-missions/static/media/OpenSans-Regular.1b0809d5.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d894a57e.js",
+    "static/js/2.6eb4933e.chunk.js",
+    "static/css/main.c15771e9.chunk.css",
+    "static/js/main.1fd799ff.chunk.js"
+  ]
+}
